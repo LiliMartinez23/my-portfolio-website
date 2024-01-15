@@ -24,7 +24,6 @@ h2 {
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 60px;
     margin-left: 20px;
     position: relative;
 }
@@ -84,7 +83,10 @@ ul {
 }
 
 .footer-title {
+    /* font-family: 'Great Vibes', cursive; */
+    letter-spacing: 3px;
     margin-bottom: 0;
+    font-size: 35px !important;
 }
 
 .fab {
@@ -121,6 +123,11 @@ ul {
     color: white;
 }
 
+.blog-title {
+    text-align: center;
+    font-size: 30px;
+}
+
 /* MEDIA QUERIES */
 @media (min-width: 300px) {
     .header-title {
@@ -139,7 +146,7 @@ ul {
         width: 75%;
     }
     h2 {
-        font-size: 15px;
+        font-size: 25px;
     }
 }
 
@@ -154,7 +161,7 @@ ul {
         font-size: 20px;
     }
     h2 {
-        font-size: 18px;
+        font-size: 25px;
     }
 }
 
@@ -169,7 +176,7 @@ ul {
         font-size: 20px;
     }
     h2 {
-        font-size: 22px;
+        font-size: 30px;
     }
 }
 
@@ -184,7 +191,7 @@ ul {
         font-size: 30px;
     }
     h2 {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
@@ -199,7 +206,10 @@ ul {
         font-size: 40px;
     }
     .nav a {
-        font-size: 35px;
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 45px;
     }
 }
 
