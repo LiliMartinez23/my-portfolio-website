@@ -45,11 +45,12 @@ ul {
 .home {
     position: relative;
     text-align: center;
-}
-
-.home img {
+    background-image: url('img/coffee.png');
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    height: auto;
+    /* Set a specific height or make it responsive to content */
+    height: 500px; /* Example height */
 }
 
 .header-title {
@@ -66,7 +67,7 @@ ul {
 }
 
 .sm-links a {
-    color: black;
+    color: white;
 }
 
 .sm-links li {
@@ -80,6 +81,7 @@ ul {
 }
 
 .footer-title {
+    color: white;
     margin-bottom: 0;
 }
 
@@ -93,6 +95,7 @@ ul {
 }
 
 .hr-short {
+    border: solid 1px black;
     width: 50%;
     text-align: center;
 }
@@ -102,8 +105,17 @@ ul {
     .header-title {
         font-size: 20px;
     }
+    .footer {
+        padding: 50px;
+    }
     .footer-title {
         font-size: 20px;
+    }
+    .nav a {
+        font-size: 12px;
+    }
+    .hr-short {
+        width: 75%;
     }
 }
 
@@ -114,6 +126,9 @@ ul {
     .footer-title {
         font-size: 25px;
     }
+    .nav a {
+        font-size: 15px;
+    }
 }
 
 @media (min-width: 750px) {
@@ -123,13 +138,22 @@ ul {
     .footer-title {
         font-size: 35px;
     }
+    .nav a {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 800px) {
     .header-title {
         font-size: 40px;
     }
+    .footer {
+        padding: 50px;
+    }
     .footer-title {
         font-size: 40px;
+    }
+    .nav a {
+        font-size: 25px;
     }
 }
