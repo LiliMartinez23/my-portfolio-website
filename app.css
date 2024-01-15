@@ -24,8 +24,9 @@ h2 {
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 60px;
     margin-left: 20px;
+    position: relative;
 }
 
 ul {
@@ -34,6 +35,7 @@ ul {
     padding: 0;
 }
 
+/* CLASSES */
 .nav-links {
     padding: 0;
     position: absolute;
@@ -100,10 +102,29 @@ ul {
     text-align: center;
 }
 
-/* Media Queries */
+/* BLOG POSTS */
+.card {
+    width: 18rem;  
+    margin: 20px;
+    border: double 3px white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    background-color: rgba(0, 43, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.card-body {
+    padding: 15px;
+    color: white;
+}
+
+/* MEDIA QUERIES */
 @media (min-width: 300px) {
     .header-title {
-        font-size: 20px;
+        font-size: 30px;
     }
     .footer {
         padding: 50px;
@@ -112,16 +133,19 @@ ul {
         font-size: 20px;
     }
     .nav a {
-        font-size: 15px;
+        font-size: 20px;
     }
     .hr-short {
         width: 75%;
+    }
+    h2 {
+        font-size: 15px;
     }
 }
 
 @media (min-width: 430px) {
     .header-title {
-        font-size: 25px;
+        font-size: 35px;
     }
     .footer-title {
         font-size: 25px;
@@ -129,11 +153,29 @@ ul {
     .nav a {
         font-size: 20px;
     }
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 540px) {
+    .header-title {
+        font-size: 35px;
+    }
+    .footer-title {
+        font-size: 25px;
+    }
+    .nav a {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 22px;
+    }
 }
 
 @media (min-width: 750px) {
     .header-title {
-        font-size: 35px;
+        font-size: 40px;
     }
     .footer-title {
         font-size: 35px;
@@ -141,11 +183,14 @@ ul {
     .nav a {
         font-size: 30px;
     }
+    h2 {
+        font-size: 30px;
+    }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 820px) {
     .header-title {
-        font-size: 40px;
+        font-size: 50px;
     }
     .footer {
         padding: 50px;
@@ -157,3 +202,4 @@ ul {
         font-size: 35px;
     }
 }
+
