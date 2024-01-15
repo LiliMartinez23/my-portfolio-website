@@ -14,12 +14,14 @@ a {
 }
 
 h1 {
+    color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 40px;
 }
 
 h2 {
+    color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 35px;
@@ -54,7 +56,6 @@ ul {
 }
 
 .header-title {
-    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -81,7 +82,6 @@ ul {
 }
 
 .footer-title {
-    color: white;
     margin-bottom: 0;
 }
 
