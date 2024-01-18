@@ -112,9 +112,7 @@ ul {
     background-size: cover;
     width: 18rem;  
     margin: 20px;
-    border: double 3px white;
     border-radius: 5px;
-    box-shadow: 1px 1px 3px black;
     display: flex;
     flex-direction: column;
     justify-content: center;
