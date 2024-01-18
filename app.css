@@ -106,6 +106,10 @@ ul {
 
 /* BLOG POSTS */
 .card {
+    background-image: url('img/book-2.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 18rem;  
     margin: 20px;
     border: double 3px white;
@@ -116,6 +120,12 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 4px #000;
+    transform: scale(1.01);
 }
 
 .card-body {
