@@ -35,6 +35,12 @@ ul {
 }
 
 /* CLASSES */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .nav-links {
     padding: 0;
     position: absolute;
@@ -105,8 +111,30 @@ ul {
 }
 
 /* BLOG POSTS */
+.button {
+    font-size: 10px;
+    padding: 5px 10px;
+    color: white;
+    border: solid 1px white;
+    border-radius: 2px;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: white;
+    border: solid 1px black;
+    background-color: #000;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .card {
-background-image: url('img/book-1.webp');
+    background-image: url('img/book-1.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,7 +163,21 @@ background-image: url('img/book-1.webp');
     font-size: 30px;
 }
 
+.blog-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* MEDIA QUERIES */
+@media (min-width: 250px) {
+    /* Cards */
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media (min-width: 300px) {
     .header-title {
         font-size: 30px;
@@ -154,6 +196,12 @@ background-image: url('img/book-1.webp');
     }
     h2 {
         font-size: 25px;
+    }
+
+    /* Cards */
+    .card-container {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -200,6 +248,12 @@ background-image: url('img/book-1.webp');
     h2 {
         font-size: 40px;
     }
+
+    /* Cards */
+    .card-container {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 @media (min-width: 820px) {
@@ -217,6 +271,12 @@ background-image: url('img/book-1.webp');
     }
     h2 {
         font-size: 45px;
+    }
+
+    /* Cards */
+    .card-container {
+        display: flex;
+        flex-direction: row;
     }
 }
 
