@@ -272,11 +272,5 @@ ul {
     h2 {
         font-size: 45px;
     }
-
-    /* Cards */
-    .card-container {
-        display: flex;
-        flex-direction: row;
-    }
 }
 
