@@ -266,11 +266,6 @@ ul {
         justify-content: center;
         align-items: center;
     }
-
-    /* Header Image */
-    .home {
-
-    }
 }
 
 @media (min-width: 540px) {
