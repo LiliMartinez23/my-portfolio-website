@@ -13,6 +13,10 @@ a {
     font-family: 'Roboto', sans-serif;
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -20,16 +24,11 @@ h1 {
     font-size: 40px;
 }
 
-h2 {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    margin-left: 20px;
-    position: relative;
-}
-
 h3 {
+    font-family: 'Roboto', sans-serif;
     color: black;
+    text-align: start;
+    letter-spacing: 1px;
 }
 
 ul {
@@ -43,6 +42,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .nav-links {
@@ -66,6 +66,7 @@ ul {
     height: 500px; /* Example height */
 }
 
+/* Titles */
 .header-title {
     position: absolute;
     top: 50%;
@@ -74,6 +75,11 @@ ul {
     padding: 10px;
 }
 
+.md-title {
+    margin-left: 20px;
+}
+
+/* Links */
 .nav a {
     color: white;
 }
@@ -86,6 +92,7 @@ ul {
     display: inline-block;
 }
 
+/* Footer */
 .footer {
     text-align: center;
     padding: 10px;
@@ -114,9 +121,14 @@ ul {
     text-align: center;
 }
 
+/* Text Body */
 .small-body-text {
-    padding: 15px;
+    margin-left: 30px;
     text-align: center;
+}
+
+.sm-text {
+    text-align: start;
 }
 
 /* BLOG POSTS */
@@ -143,7 +155,7 @@ ul {
 }
 
 .card {
-    background-image: url('img/book-1.webp');
+    background-image: url('img/book-2.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
