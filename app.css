@@ -66,6 +66,17 @@ ul {
     height: 800px; /* Example height */
 }
 
+.blog {
+    position: relative;
+    text-align: center;
+    background-image: url('img/book-1.webp');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    /* Set a specific height or make it responsive to content */
+    height: 800px; /* Example height */
+}
+
 /* Titles */
 .header-title {
     position: absolute;
