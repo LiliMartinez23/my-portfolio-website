@@ -63,7 +63,7 @@ ul {
     background-position: center;
     width: 100%;
     /* Set a specific height or make it responsive to content */
-    height: 800px; /* Example height */
+    height: 750px; /* Example height */
 }
 
 .blog {
@@ -74,7 +74,7 @@ ul {
     background-position: center;
     width: 100%;
     /* Set a specific height or make it responsive to content */
-    height: 800px; /* Example height */
+    height: 750px; /* Example height */
 }
 
 /* Titles */
@@ -265,6 +265,11 @@ ul {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    /* Header Image */
+    .home {
+
     }
 }
 
