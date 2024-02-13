@@ -37,6 +37,30 @@ ul {
     padding: 0;
 }
 
+/* Test */
+header {
+    background-color: #000;
+    height: 50px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img-container img {
+    width: 100%;
+    height: auto;
+}
+/* Test */
+
 /* CLASSES */
 .container {
     display: flex;
