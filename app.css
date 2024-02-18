@@ -17,7 +17,6 @@ a {
 
 .home-title {
     color: white;
-    /* margin-left: 100px; */
 }
 
 .navbar {
@@ -74,6 +73,14 @@ a {
 
 .white-text {
     color: white;
+
+}
+
+.small-title {
+    margin: 0;
+    color: beige;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Button */
