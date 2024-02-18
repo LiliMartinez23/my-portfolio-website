@@ -131,14 +131,9 @@ a {
     background-color: white;
     color: grey;
     border: dotted 2px grey;
-    /* background-color: black;
-    color: white; */
 }
 
 .btn:hover {
-    /* background-color: white;
-    color: black;
-    border: dotted 3px black; */
     background-color: grey;
     color: white;
 }
