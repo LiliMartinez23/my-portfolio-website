@@ -9,6 +9,13 @@ a {
     text-decoration: none;
 }
 
+h3 {
+    color: beige;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
 .header-title {
     color: white;
     text-align: center;
@@ -50,17 +57,18 @@ a {
 }
 
 .img-container img {
-    width: 360px;
+    width: 390px;
 }
 
 .img-two {
-    width: 100px;
+    width: 50px;
     height: auto;
-    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .img-two img {
-    width: 500px;
+    margin-top: 20px;
+    width: 400px;
 }
 
 /* Container */
@@ -72,17 +80,17 @@ a {
 }
 
 .con-two {
-    width: 65%;
+    width: 1000px;
+    height: auto;
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: start;
-    padding:  0 50px 0 50px;
+    padding:  0 30px 0 30px;
 }
 
 .box-container {
-    margin-top: 30px;
     width: 100%;
     height: auto;
     display: flex;
@@ -128,10 +136,15 @@ a {
 /* Body text */
 .text-container {
     padding: 50px;
-    margin-left: 100px;
+    margin-left: 150px;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
+    align-items: start;
+}
+
+.txt {
+    margin: 0;
 }
 
 .white-text {
@@ -147,11 +160,19 @@ a {
 }
 
 .title {
+    margin-top: 5px;
     color: black;
 }
 
 .sm-title {
     color: black;
+}
+
+.posts-title {
+    padding-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
 }
 
 /* Button */
@@ -191,5 +212,11 @@ a {
 
     .text-container {
         margin-left: 0;
+    }
+
+    .box-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
