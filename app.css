@@ -61,14 +61,15 @@ h3 {
 }
 
 .img-two {
-    width: 50px;
+    width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: start;
 }
 
 .img-two img {
-    margin-top: 20px;
-    width: 400px;
+    width: 100%;
+    height: auto;
 }
 
 /* Container */
@@ -80,7 +81,7 @@ h3 {
 }
 
 .con-two {
-    width: 1000px;
+    width: 100%;
     height: auto;
     background-color: white;
     display: flex;
@@ -135,7 +136,7 @@ h3 {
 
 /* Body text */
 .text-container {
-    padding: 50px;
+    padding: 40px;
     margin-left: 150px;
     display: flex;
     flex-direction: column;
@@ -145,6 +146,8 @@ h3 {
 
 .txt {
     margin: 0;
+    width: 50%;
+    height: auto;
 }
 
 .white-text {
@@ -218,5 +221,18 @@ h3 {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
+
+    .con-two {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+
 }
