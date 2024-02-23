@@ -200,6 +200,25 @@ h3 {
     color: beige;
 }
 
+/* Footer */
+.footer-container {
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links a {
+    color: black;
+}
+
 /* Button */
 .button {
     color: black;
