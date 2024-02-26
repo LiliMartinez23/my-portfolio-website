@@ -5,7 +5,7 @@ body {
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -17,16 +17,15 @@ h3 {
 }
 
 .header-title {
-    color: white;
+    color: black;
     text-align: center;
     margin: 1rem;
 }
 
-.home-title {
-    color: white;
-}
-
 .navbar {
+    background-color: beige;
+    margin: 1rem;
+    border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +72,6 @@ h3 {
     height: auto;
     background-color: white;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -105,6 +103,7 @@ h3 {
     padding-bottom: 1.5rem;
 }
 
+/* Boxes */
 .box {
     width: 18rem;
     height: auto;
@@ -142,20 +141,34 @@ h3 {
 
 /* Body text */
 .text-container {
+    width: 75%;
+    /* background-color: beige; */
+    border: solid 1px beige;
     padding-right: 2rem;
-    margin-left: 9rem;
+    margin: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    border-radius: 1rem;
+    padding: 2rem;
 }
 
 .txt {
-    margin: 0;
+    width: 100%;
+    margin: 1rem;
+    background-color: beige;
+    border-radius: 1rem;
     padding: 2rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
     width: 50%;
     height: auto;
     align-items: center;
+}
+
+.txt p {
+    color: black;
 }
 
 .txt-end {
@@ -167,16 +180,19 @@ h3 {
     color: white;
 }
 
-.white-text {
-    color: white;
-
-}
-
 .small-title {
-    margin: 0;
     color: beige;
+    margin: 0;
     font-size: 1.12rem;
     font-family: 'Roboto', sans-serif;
+}
+
+.home-title {
+    color: beige;
+}
+
+.white-text {
+    color: white;
 }
 
 .title {
@@ -185,7 +201,7 @@ h3 {
 }
 
 .sm-title {
-    color: black;
+    color: black !important;
     margin: 0;
 }
 
@@ -219,13 +235,14 @@ h3 {
     color: black;
 }
 
-/* Button */
+/* Buttons */
 .button {
     color: black;
     background-color: beige;
     padding: 0.5rem 1rem;
     width: fit-content;
     border-radius: 1.5rem;
+    border: solid 1px black;
 }
 
 .button:hover {
@@ -235,14 +252,15 @@ h3 {
 }
 
 .btn {
-    background-color: white;
-    color: grey;
-    border: dotted 2px grey;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    border: solid 1px black;
+    color: black;
 }
 
 .btn:hover {
-    background-color: grey;
-    color: white;
+    background-color: black;
+    color: beige;
 }
 
 .view-btn {
