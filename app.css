@@ -294,7 +294,7 @@ h3 {
     display: flex;
     justify-content: start;
     align-items: start;
-    width: 25%;
+    width: 100%;
     height: auto;
 }
 
@@ -304,6 +304,7 @@ h3 {
     align-items: start;
     width: 100%;
     height: auto;
+    border-radius: 1rem;
 }
 
 .about-text-body {
@@ -367,6 +368,10 @@ h3 {
     .img-container {
         width: 100%;
         height: auto;
+    }
+
+    .img-container img {
+        border-radius: 0;
     }
 
     .about-title {
