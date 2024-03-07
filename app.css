@@ -76,7 +76,7 @@ h3 {
 
 /* Container */
 .container {
-    background-image: url('img/book-1.webp');
+    background-image: url('img/temple.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -462,5 +462,38 @@ h3 {
         display: flex;
         flex-direction: column;
         justify-content: end;
+    }
+
+    .about-title {
+        color: beige;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 28px;
+    }
+
+    .about-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-text-body {
+        width: 75%;
+        height: auto;
+    }
+
+    .img-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-container img {
+        border-radius: 0;
+    }
+
+    .about-title {
+        text-align: center;
+        margin-left: 0;
     }
 }
