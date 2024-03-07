@@ -158,6 +158,18 @@ h3 {
     text-align: center;
 }
 
+.box-text {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box-text-sm {
+    color: grey !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-top: 0;
+}
 
 /* Body text */
 .text-container {
