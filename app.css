@@ -363,6 +363,12 @@ h3 {
     font-size: 20px;
 }
 
+.hobbies-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
 /* Media */
 @media (max-width: 430px) {
     .container {
@@ -434,7 +440,6 @@ h3 {
 
     .about-text-body-lg {
         margin-left: 3.5rem;
-        width: 100%;
     }
 }
 
