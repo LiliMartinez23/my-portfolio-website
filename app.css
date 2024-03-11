@@ -310,6 +310,19 @@ h3 {
     color: black;
 }
 
+.gallery-button {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border: solid 1px white;
+    border-radius: 1.5rem;
+}
+
+.gallery-button:hover {
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+}
+
 /* About page */
 .about-container {
     width: 100%;
