@@ -43,6 +43,15 @@ h3 {
     text-decoration: underline;
 }
 
+.header { 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #000;
+    padding: 1rem;
+}
+
 .header-title {
     color: black;
     text-align: center;
@@ -51,7 +60,6 @@ h3 {
 
 .navbar {
     background-color: beige;
-    margin: 1rem;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
