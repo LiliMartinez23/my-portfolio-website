@@ -8,11 +8,16 @@
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <header class="header">
-        <div class="navbar">
-            <ul class="nav-links">
-                <h1 class="header-title">My Web Temple</h1>
-            </ul>
+    <header>
+        <div class="nav">
+            <div class="title">
+                <h1>Coffee Shop</h1>
+            </div>
+            <div class="icon" onclick="toggleMenu()">&#9776;</div>
+            <div class="menu" id="myMenu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+            </div>
         </div>
     </header>
 
@@ -90,5 +95,17 @@
             
         </div>
     </footer> -->
+
+    <!-- JAVASCRIPT -->
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("myMenu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>
