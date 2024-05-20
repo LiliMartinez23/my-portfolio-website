@@ -468,6 +468,11 @@ h3 {
     margin: 0;
 }
 
+/* FOOTER */
+.phone-number {
+    color: #f1f1f1;
+}
+
 /* Media */
 @media (max-width: 430px) {
     .container {
