@@ -434,6 +434,19 @@ h3 {
     border-radius: 5px;
 }
 
+/* BLOG PAGE */
+.blog {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.blog-title {
+    color: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
 /* Media */
 @media (max-width: 430px) {
     .container {
