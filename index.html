@@ -22,18 +22,6 @@
         </div>
     </header>
 
-    <!-- ANNOUNCEMENTS -->
-    <div class="announcements-container">
-        <div class="txt-end">
-            <p class="small-title sm-title-black">ANNOUNCEMENTS</p>
-            <p class="announcements-txt">📢 Just got my third stripe on my white belt! 
-                It's been a wild ride on this rollercoaster, 
-                and I'm happy to have made some great friends along the 
-                way. This is only the beginning...
-            </p>
-        </div>
-    </div>
-
     <!-- INTRODUCTION -->
     <div class="container">
         <div class="text-container">
@@ -83,6 +71,7 @@
 
     <!-- JAVASCRIPT -->
     <script>
+        // NAVBAR ICON FUNCTION
         function toggleMenu() {
             var menu = document.getElementById("myMenu");
             if (menu.style.display === "block") {
@@ -91,6 +80,15 @@
                 menu.style.display = "block";
             }
         }
+
+        // ANNOUCEMENTS FUNCTION
+        function announcementBox() {
+            alert("🔔 ANNOUNCEMENT 🔔\nJust got my third stripe on my white belt! It's been a wild ride on this rollercoaster, and I'm happy to have made some great friends along the way!");
+        }
+
+        window.onload = function() {
+            setTimeout(announcementBox, 1000);
+        };
     </script>
 </body>
 </html>
