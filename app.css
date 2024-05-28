@@ -131,19 +131,15 @@ h3 {
 
     /* Transitions */
     transition: transform 0.3s ease;
+
+    background-image: url('img/book-2.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .box:hover {
     transform: scale(1.05);
-}
-
-.box img {
-    width: 18rem;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .box p {
@@ -158,7 +154,6 @@ h3 {
 }
 
 .box-text-sm {
-    color: grey !important;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     margin-top: 0;
@@ -278,7 +273,7 @@ h3 {
 .button:hover {
     background-color: #000;
     color: #FCF5C7;
-    border: solid 1px #FCF5C7;
+    border: solid 1px #000;
 }
 
 .btn {
@@ -295,7 +290,7 @@ h3 {
 
 .view-btn {
     color: #FCF5C7;
-    background-color: black;
+    background-color: transparent;
     padding: 0.5rem 1rem;
     width: fit-content;
     border-radius: 1.5rem;
@@ -303,6 +298,7 @@ h3 {
 
 .view-btn:hover {
     background-color: #FCF5C7;
+    border-color: #FCF5C7;
     color: black;
 }
 
@@ -569,8 +565,8 @@ h3 {
     }
 
     .about-title {
-        color: #FCF5C7;
-        font-family: 'Roboto', sans-serif;
+        color: #fcf5c7;
+        font-family: 'roboto', sans-serif;
         font-weight: 300;
         font-size: 28px;
     }
