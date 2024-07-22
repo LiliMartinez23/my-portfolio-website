@@ -260,10 +260,9 @@ header {
 }
 
 .about-title {
-    color: #FCF5C7;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 40px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
     margin-left: 3rem;
     text-align: start;
 }
@@ -280,8 +279,8 @@ header {
     display: flex;
     justify-content: start;
     align-items: start;
-    width: 100%;
-    height: auto;
+    width: 30%;
+    height: 30%;
 }
 
 .img-container img {
@@ -445,9 +444,8 @@ header {
     }
 
     .about-title {
-        color: #FCF5C7;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
+        color: white;
+        font-weight: 600;
         font-size: 28px;
     }
 
@@ -512,9 +510,8 @@ header {
     }
 
     .about-title {
-        color: #fcf5c7;
-        font-family: 'roboto', sans-serif;
-        font-weight: 300;
+        color: white;
+        font-weight: 600;
         font-size: 28px;
     }
 
