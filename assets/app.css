@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: #000000ef;
 }
 
 a {
@@ -30,7 +30,7 @@ h2 {
 
 h3 {
     margin-bottom: 0;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -38,7 +38,7 @@ h3 {
 
 header {
     padding: 1rem;
-    background-color: #92fdff4c;
+    background-color: #499cfa52;
 }
 
 .featured-posts {
@@ -47,7 +47,7 @@ header {
 
 /* Container */
 .container {
-    background-color: #92fdff4c;
+    background-color: #499cfa52;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -86,10 +86,11 @@ header {
     align-items: center;
     /* Transitions */
     transition: transform 0.3s ease;
-    background-image: url('/img/seafoam-green.jpg');
+    background-color: #499cfa52;
+    /* background-image: url('/img/seafoam-green.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .box:hover {
@@ -102,16 +103,16 @@ header {
 }
 
 .box-text {
-    color: black !important;
+    color: rgb(255, 255, 255) !important;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     font-family: 'Roboto', sans-serif;
 }
 
 .box-text-sm {
-    color: black !important;
+    color: rgb(255, 255, 255) !important;
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 0;
 }
 
@@ -329,7 +330,7 @@ header {
     display: none;
     position: absolute;
     background-color: white;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px #00000033;
     z-index: 1;
     right: 0;
     top: 60px; /* Adjust based on header height */
