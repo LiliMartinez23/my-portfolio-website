@@ -279,8 +279,10 @@ header {
     display: flex;
     justify-content: start;
     align-items: start;
-    width: 30%;
+    width: 25%;
     height: 30%;
+    border: solid 5px white;
+    border-radius: 1rem;
 }
 
 .img-container img {
@@ -528,6 +530,7 @@ header {
     }
 
     .img-container {
+        border-radius: 0;
         width: 100%;
         height: auto;
     }
