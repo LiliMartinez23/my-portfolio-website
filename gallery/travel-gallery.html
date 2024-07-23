@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Temple</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/app.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="title">
+                <h1>My Web Temple</h1>
+            </div>
+            <div class="icon" onclick="toggleMenu()">&#9776;</div>
+            <div class="menu" id="myMenu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog-posts.html">Blog</a>
+            </div>
+        </div>
+    </header>
+
+<!-- FOOTER -->
+    <footer>
+        <div class="footer">
+            <p>(210) 835-7312</p>
+        </div>
+    </footer>
+
+<!-- JAVASCRIPT -->
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("myMenu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

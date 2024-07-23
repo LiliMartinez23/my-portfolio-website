@@ -23,14 +23,14 @@ h1 {
 }
 
 h2 {
-    color: white;
+    color: #3f6cffef;
     font-size: 40px;
     font-family: 'Inter', sans-serif;
 }
 
 h3 {
     margin-bottom: 0;
-    color: rgb(255, 255, 255);
+    color: #3f6cffef;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -38,7 +38,7 @@ h3 {
 
 header {
     padding: 1rem;
-    background-color: #499cfa52;
+    background-color: #1e1e1eef;
 }
 
 .featured-posts {
@@ -47,7 +47,7 @@ header {
 
 /* Container */
 .container {
-    background-color: #499cfa52;
+    background-color: #1e1e1eef;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -86,7 +86,7 @@ header {
     align-items: center;
     /* Transitions */
     transition: transform 0.3s ease;
-    background-color: #499cfa52;
+    background-color: #1e1e1eef;
     /* background-image: url('/img/seafoam-green.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -95,6 +95,10 @@ header {
 
 .box:hover {
     transform: scale(1.05);
+}
+
+.box-title {
+    color: white;
 }
 
 .box p {
@@ -172,7 +176,6 @@ header {
 }
 
 .title {
-    margin-top: 0.5rem;
     color: black;
 }
 
@@ -194,7 +197,6 @@ header {
     color: #f1f1f1;
     height: auto;
     width: 100%;
-    margin: 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,38 +230,40 @@ header {
 
 .view-btn {
     font-size: 20px;
-    color: black;
+    color: white;
     background-color: transparent;
     padding: 0.5rem 1rem;
     border-radius: 1.5rem;
-    border: solid 2px black;
+    border: solid 2px white;
 }
 
 .view-btn:hover {
-    background-color: black;
-    border-color: black;
-    color: white !important;
+    background-color: white;
+    border-color: white;
+    color: black;
 }
 
 .gallery-button {
     background-color: white;
     padding: 0.5rem 1rem;
-    border: solid 1px white;
+    border: solid 2px white;
     border-radius: 1.5rem;
 }
 
 .gallery-button:hover {
     background-color: transparent;
     color: white;
-    border: solid 1px white;
+    border: solid 2px white;
 }
 
 /* About page */
 .about-container {
+    background-color: #1e1e1eef;
     width: 100%;
 }
 
 .about-title {
+    margin-top: 0;
     color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -328,6 +332,7 @@ header {
 
 /* NAVBAR */
 .menu {
+    font-family: 'Inter', sans-serif;
     display: none;
     position: absolute;
     background-color: white;
@@ -349,6 +354,8 @@ header {
 
 .menu a:hover {
     background-color: #c3c3c3;
+    border-radius: 5px;
+    color: #3f6cffef;
 }
 
 .icon {
@@ -363,10 +370,10 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    background-color: #f1f1f1;
-    border-radius: 5px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: white;
+    border-radius: 50px;
 }
 
 /* BLOG PAGE */
@@ -388,14 +395,13 @@ header {
 /* BLOG 1 */
 .blog-title {
     color: #f1f1f1;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 
 .blog-txt-title {
-    color: #f1f1f1;
-    font-size: 24px;
-    margin: 0;
+    font-size: 40px;
+    text-align: center;
 }
 
 .blog-txt-body {
@@ -404,8 +410,8 @@ header {
 
 .blog-txt {
     color: #f1f1f1;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
     text-align: center;
     padding: 1rem;
     margin: 0;
@@ -415,6 +421,8 @@ header {
 .phone-number {
     color: #f1f1f1;
 }
+
+
 
 /* Media */
 @media (max-width: 430px) {
