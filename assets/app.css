@@ -23,14 +23,14 @@ h1 {
 }
 
 h2 {
-    color: #3f6cffef;
+    color: #6f3fffef;
     font-size: 40px;
     font-family: 'Inter', sans-serif;
 }
 
 h3 {
     margin-bottom: 0;
-    color: #3f6cffef;
+    color: #6f3fffef;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -355,7 +355,7 @@ header {
 .menu a:hover {
     background-color: #c3c3c3;
     border-radius: 5px;
-    color: #3f6cffef;
+    color: #6f3fffef;
 }
 
 .icon {
@@ -422,7 +422,33 @@ header {
     color: #f1f1f1;
 }
 
+/* GALLERY */
+.gallery-container {
+    margin: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    width: 50%;
+    height: 50%;
+    margin: 2rem;
+}
+
+.col img {
+    width: 100%;
+    height: 100%;
+}
 
 /* Media */
 @media (max-width: 430px) {
