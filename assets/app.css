@@ -52,7 +52,9 @@ header {
     margin-left: 5rem;
 }
 
-/* Container */
+/* -------------------------- */
+        /* CONTAINERS */
+/* -------------------------- */
 .container {
     background-color: #1e1e1eef;
     width: 100%;
@@ -88,7 +90,9 @@ header {
     flex-direction: row;
 }
 
-/* Boxes */
+/* -------------------------- */
+        /* BOXES */
+/* -------------------------- */
 .box {
     width: 18rem;
     height: auto;
@@ -136,7 +140,9 @@ header {
     margin-top: 0;
 }
 
-/* Body text */
+/* -------------------------- */
+        /* BODY TEXT */
+/* -------------------------- */
 .text-container {
     margin: 1rem !important;
     border-radius: 1rem;
@@ -207,18 +213,9 @@ header {
     color: white;
 }
 
-/* Footer */
-.footer {
-    background-color: black;
-    color: #f1f1f1;
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Buttons */
+/* -------------------------- */
+        /* BUTTONS */
+/* -------------------------- */
 .button {
     color: white;
     padding: 0.5rem 1rem;
@@ -272,7 +269,9 @@ header {
     border: solid 2px white;
 }
 
-/* About page */
+/* -------------------------- */
+        /* ABOUT PAGE */
+/* -------------------------- */
 .about-container {
     background-color: #1e1e1eef;
     width: 100%;
@@ -346,7 +345,9 @@ header {
     flex-direction: row;
 }
 
-/* NAVBAR */
+/* -------------------------- */
+        /* NAVBAR */
+/* -------------------------- */
 .menu {
     font-family: 'Inter', sans-serif;
     display: none;
@@ -392,7 +393,9 @@ header {
     border-radius: 50px;
 }
 
-/* BLOG PAGE */
+/* -------------------------- */
+        /* BLOG PAGE */
+/* -------------------------- */
 .blog {
     width: 100%;
     height: auto;
@@ -408,7 +411,9 @@ header {
     color: #f1f1f1;
 }
 
-/* BLOG 1 */
+/* -------------------------- */
+        /* BLOG 1 */
+/* -------------------------- */
 .blog-title {
     color: #f1f1f1;
     font-family: 'Inter', sans-serif;
@@ -433,12 +438,29 @@ header {
     margin: 0;
 }
 
-/* FOOTER */
+/* -------------------------- */
+        /* FOOTER */
+/* -------------------------- */
+.footer {
+    background-color: black;
+    color: #f1f1f1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .phone-number {
     color: #f1f1f1;
 }
 
-/* GALLERY */
+.footer-info {
+    font-size: 12px;
+}
+
+/* -------------------------- */
+        /* GALLERY */
+/* -------------------------- */
 .gallery-container {
     margin: 1rem;
     text-align: center;
@@ -466,12 +488,18 @@ header {
     height: 100%;
 }
 
-/* PROJECTS */
+/* -------------------------- */
+        /* PROJECTS */
+/* -------------------------- */
 .project-img {
     width: 45%;
     height: 45%;
+    border-radius: 0.5rem;
 }
 
+/* -------------------------- */
+        /* MEDIA */
+/* -------------------------- */
 @media (max-width: 390px) {
     h1 {
         font-size: 18px;
@@ -490,7 +518,6 @@ header {
     }
 }
 
-/* Media */
 @media (max-width: 430px) {
     h1 {
         font-size: 26px;
