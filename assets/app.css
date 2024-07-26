@@ -505,13 +505,17 @@ header {
         font-size: 18px;
     }
 
-    .project-container {
-        display: flex;
-        flex-direction: column;
+    .projects-container {
         margin: 1rem;
     }
 
+    .project-container {
+        display: flex;
+        flex-direction: column;
+    }
+
     .project-img {
+        padding-bottom: 1rem;
         margin-bottom: 1rem;
         width: 100%;
         height: 100%;
