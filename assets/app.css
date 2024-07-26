@@ -56,7 +56,10 @@ header {
         /* CONTAINERS */
 /* -------------------------- */
 .container {
-    background-color: #1e1e1eef;
+    background-image: url('/img/BLD_5_Dark.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -144,7 +147,6 @@ header {
         /* BODY TEXT */
 /* -------------------------- */
 .text-container {
-    margin: 1rem !important;
     border-radius: 1rem;
     padding: 2rem;
     height: auto;
@@ -152,6 +154,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center !important;
+}
+
+.text-container h2 {
+    color: white;
 }
 
 .txt {
