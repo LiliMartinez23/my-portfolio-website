@@ -460,12 +460,10 @@ svg {
     justify-content: center;
     align-items: center;
 }
-.phone-number {
-    color: #f1f1f1;
-}
 
 .footer-info {
     font-size: 12px;
+    color: white;
 }
 
 /* -------------------------- */
