@@ -5,7 +5,6 @@ body {
 }
 
 a {
-    font-size: 20px;
     color: black;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -14,17 +13,16 @@ a {
 p {
     color: white !important;
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 h1 {
-    font-family: 'Inter', sans-serif;
+    color: white;
     font-weight: 400;
 }
 
 h2 {
     color: white;
-    font-size: 40px;
     font-family: 'Inter', sans-serif;
 }
 
@@ -45,15 +43,94 @@ h4 {
 
 header {
     padding: 1rem;
-    /* background-color: #1e1e1eef; */
-    background-image: url('/img/ART_1_Dark.webp');
+    background-color: #1e1e1eef;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.featured-posts {
-    margin-left: 5rem;
+/* ---------------- */
+    /* CARD */
+/* ---------------- */
+.card-container {
+    perspective: 1000px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    height: 25rem;
+    margin: 0.1rem;
+    padding: 1rem;
+    border-radius: 0;
+    background-color: transparent;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+}
+
+.card-back {
+    background-color: #4b4b4b;
+    transform: rotateY(180deg);
+}
+
+.card:hover {
+    transform: rotateY(-180deg);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1 {
+    background-image: url('/img/BLD_2_Dark.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-2 {
+    background-image: url('/img/BLD_3_Dark.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-3 {
+    background-image: url('/img/BLD_5_Dark.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-4 {
+    background-image: url('/img/Cancun-Building-2.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* -------------------------- */
@@ -76,16 +153,6 @@ header {
     align-items: center;
 }
 
-.box-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 1.5rem;
-}
-
 .projects-container {
     margin: 2rem;
 }
@@ -93,56 +160,6 @@ header {
 .project-container{
     display: flex;
     flex-direction: row;
-}
-
-/* -------------------------- */
-        /* BOXES */
-/* -------------------------- */
-.box {
-    width: 18rem;
-    height: auto;
-    margin: 1rem;
-    border: solid 1px white;
-    border-radius: 0.5rem;
-    padding-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* Transitions */
-    transition: transform 0.3s ease;
-    background-color: #1e1e1eef;
-    /* background-image: url('/img/seafoam-green.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-}
-
-.box:hover {
-    transform: scale(1.05);
-}
-
-.box-title {
-    color: white;
-}
-
-.box p {
-    color: white;
-    text-align: center;
-}
-
-.box-text {
-    color: rgb(255, 255, 255) !important;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-.box-text-sm {
-    color: rgb(255, 255, 255) !important;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    margin-top: 0;
 }
 
 /* -------------------------- */
@@ -222,7 +239,7 @@ header {
 /* -------------------------- */
 .button {
     color: white;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
     width: fit-content;
     border-radius: 0.5rem;
     border: solid 2px white;
@@ -270,6 +287,15 @@ header {
     background-color: transparent;
     color: white;
     border: solid 2px white;
+}
+
+#button {
+    color: black;
+    padding: 0.3rem 2rem;
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 3px;
+    text-align: center;
 }
 
 /* -------------------------- */
