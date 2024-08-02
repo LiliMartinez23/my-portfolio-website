@@ -429,8 +429,7 @@ svg {
         /* FOOTER */
 /* -------------------------- */
 .footer {
-    background-color: black;
-    color: #f1f1f1;
+    background-color: white;
     height: auto;
     width: 100%;
     display: flex;
@@ -442,7 +441,7 @@ svg {
     padding: 1rem 0 1rem 0;
     margin: 0;
     font-size: 12px;
-    color: white !important;
+    color: black !important;
 }
 
 /* -------------------------- */
