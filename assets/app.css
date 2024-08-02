@@ -554,6 +554,20 @@ svg {
         width: 100%;
         height: 100%;
     }
+
+    .card-container {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        margin: 1rem;
+        width: 18rem;
+        height: 18rem;
+    }
 }
 
 @media (max-width: 430px) {
@@ -658,6 +672,20 @@ svg {
         margin-bottom: 1rem;
         width: 100%;
         height: 100%;
+    }
+
+    .card-container {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        margin: 1rem;
+        width: 18rem;
+        height: 18rem;
     }
 }
 
