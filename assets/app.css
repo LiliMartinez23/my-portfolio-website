@@ -513,6 +513,10 @@ svg {
         font-size: 18px;
     }
 
+    p {
+        font-size: 15px;
+    }
+
     .icon {
         padding: 0.2rem;
         font-size: 25px; /* Icon size */
@@ -854,6 +858,10 @@ svg {
     /* 1064px */
 /* ---------------- */
 @media (max-width: 1064px) {
+    .blog-txt-body {
+        padding: 1rem;
+    }
+
     .con-two {
         width: 100%;
         padding: 0;
