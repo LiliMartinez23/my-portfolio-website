@@ -413,6 +413,12 @@ svg {
 }
 
 .blog-txt-body {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -423,6 +429,19 @@ svg {
     text-align: center;
     padding: 1rem;
     margin: 0;
+}
+
+.blog-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-img {
+    width: 18rem;
+    height: auto;
+    margin: 1rem;
 }
 
 /* -------------------------- */
