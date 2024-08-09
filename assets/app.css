@@ -109,6 +109,10 @@ header {
     align-items: center;
 }
 
+.card-body p {
+    margin-bottom: 5rem;
+}
+
 .card-1 {
     background-image: url('/img/BLD_2_Dark.webp');
     background-position: center;
