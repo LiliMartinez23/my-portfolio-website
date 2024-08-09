@@ -13,7 +13,7 @@ a {
 p {
     color: white !important;
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
+    margin: 0;
 }
 
 h1 {
@@ -30,6 +30,7 @@ h3 {
     color: #95B5EA;
     font-family: 'Inter', sans-serif;
     margin: 0;
+    padding: 1rem 0 1rem 0;
     text-align: start;
 }
 
@@ -46,6 +47,10 @@ header {
 /* ---------------------- */
 .text-body {
     margin-top: 2rem;
+}
+
+.text-body p {
+    font-size: 20px;
 }
 
 /* ---------------- */
@@ -414,7 +419,7 @@ svg {
 
 .blog-txt-body {
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -432,16 +437,35 @@ svg {
 }
 
 .blog-body {
+    margin-top: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
+/* .blog-body p {
+    font-size: 18px;
+} */
+
+.blog-body-list {
+    text-align: start;
+    padding: 0 5rem 0 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-body-list p {
+    margin-bottom: 1rem;
+}
+
 .blog-img {
-    width: 18rem;
+    width: 15rem;
     height: auto;
-    margin: 1rem 0 1rem 0;
+    margin-top: 0.5rem;
     transition: transform 0.3s ease;
 }
 
@@ -505,6 +529,11 @@ svg {
     width: 45%;
     height: 45%;
     border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.project-container p {
+    font-size: 18px;
 }
 
 /* -------------------------- */
@@ -521,11 +550,15 @@ svg {
 }
 
 .travel {
-    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
+}
+
+.travel p {
+    font-size: 18px;
+    margin-bottom: 1rem;
 }
 
 /* -------------------------- */
@@ -593,6 +626,10 @@ svg {
         margin: 1rem;
         width: 18rem;
         height: 18rem;
+    }
+
+    .blog-body-list {
+        padding: 0;
     }
 }
 
@@ -718,6 +755,10 @@ svg {
         width: 18rem;
         height: 18rem;
     }
+
+    .blog-body-list {
+        padding: 0;
+    }
 }
 
 /* ---------------- */
@@ -793,6 +834,11 @@ svg {
         margin-bottom: 1rem;
         width: 100%;
         height: 100%;
+    }
+
+    .blog-img {
+        width: 15rem;
+        height: auto;
     }
 }
 
@@ -968,5 +1014,13 @@ svg {
     .profile-img {
         width: 20rem !important;
         height: 20rem !important;
+    }
+
+    .blog-body {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
