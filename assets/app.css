@@ -4,15 +4,17 @@ body {
     background-color: #000000ef;
 }
 
+a, p, h1, h2, h3, h4 {
+    font-family: 'Inter',sans-serif;
+}
+
 a {
     color: black;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
 }
 
 p {
     color: white !important;
-    font-family: 'Inter', sans-serif;
     margin: 0;
 }
 
@@ -28,12 +30,10 @@ h1 {
 
 h2 {
     color: white;
-    font-family: 'Inter', sans-serif;
 }
 
 h3 {
     color: #95B5EA;
-    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0 0 0.5rem 0;
     text-align: start;
@@ -119,14 +119,14 @@ header {
 }
 
 .card-1 {
-    background-image: url('/img/BLD_2_Dark.webp');
+    background-image: url('/img/baroque-1.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card-2 {
-    background-image: url('/img/BLD_3_Dark.webp');
+    background-image: url('/img/baroque-2.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
