@@ -10,133 +10,77 @@
 </head>
 <body>
     <!-- ----------------------------- -->
-            <!-- HEADER -->
+    <!--            HEADER             -->
     <!-- ----------------------------- -->
     <header>
         <div class="nav">
             <div class="title">
-                <a href="index.html">My Web Temple</a>
+                <a href="/index.html">My Web Temple</a>
             </div>
             <div class="icon" onclick="toggleMenu()">&#9776;</div>
             <div class="menu" id="myMenu">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="blog-posts.html">Blog</a>
+                <a href="/index.html">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/blog-posts.html">Blog</a>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhPX6Dg9FpNwDkByCPZwPA1R-9OQRa6spCussmtVrqoY-s1A/viewform?usp=sharing">Contact</a>
-            </div>
-        </div>
-
-        <!-- ----------------------------- -->
-                <!-- INTRODUCTION -->
-        <!-- ----------------------------- -->
-        <div class="container">
-            <div class="text-container">
-                <h1>INTRODUCTION</h1>
-                <div class="text-body">
-                    <p>My name is Lili, and I'm currently attending Texas A&M University - San Antonio as a senior. 
-                        I'm majoring in Computer Science with a minor in Business Administration, and working as 
-                        a student worker for my university's Web Team.
-                    </p>
-                </div>
-                <a class="btn" href="about.html">Read <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
-                <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
-                </svg></a>
             </div>
         </div>
     </header>
 
-    <!-- ----------------------- -->
-            <!-- CARDS -->
-    <!-- ----------------------- -->
-    <div class="card-container">
-        <div class="card">
-            <div class="card-front card-1">
-                <h2>BLOG I</h2>
-            </div>
-            <div class="card-back">
-                <h2>MY VEGETARIAN JOURNEY</h2>
-                <div class="card-body">
-                    <p>A brief dive into how I changed my diet.</p>
-                    <button id="button"><a href="/blogs/my-vegetarian-journey.html">View</a></button>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-front card-1">
-                <h2>BLOG II</h2>
-            </div>
-            <div class="card-back">
-                <h2>THE BEGINNING, MIDDLE, END</h2>
-                <div class="card-body">
-                    <p>Last Round Lili</p>
-                    <button id="button"><a href="/blogs/my-vegetarian-journey.html">View</a></button>
-                </div>
-            </div>
-        </div>
+    <!-- ----------------------------- -->
+    <!--            BODY               -->
+    <!-- ----------------------------- -->
+     <div class="blog-titles">
+        <h1 class="white-blog-title">BLOG 2</h1>
+        <h2>The Beginning, Middle, and End</h2>
+        <hr>
     </div>
 
-    <!-- ----------------------------- -->
-            <!-- PROJECTS -->
-    <!-- ----------------------------- -->
-    <div class="con-two">
-        <div class="txt">
-            <h2>PROJECTS</h2>
-            <div class="projects-container">
-                <p>**LASTEST PROJECT**</p>
-                <h3>TEXAS GRAPPLING ACADEMY</h3>
-                <div class="project-container">
-                    <p>Texas Grappling Academy (TGA) is a martial arts 
-                        gym with locations in Lytle and Pleasanton, Texas. 
-                        They offer jiu-jitsu and boxing classes for both 
-                        adults and children. At TGA, you'll learn self-defense 
-                        and discipline while also growing personally and making 
-                        new friends.
-                    </p>
-                    <img class="project-img" src="/img/texas-grappling-academy.webp" alt="">
-                </div>
-                <a class="btn" href="https://texasgrapplingacademy.com">View Website <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z"/>
-                </svg></a>
-            </div>
-
-            <div class="projects-container">
-                <h3>TAMUSA ESPORTS</h3>
-                <div class="project-container">
-                    <p>The Esports Website is a dedicated digital platform for 
-                        our university's esports community, providing up-to-date 
-                        information on teams, events, and tournaments. It serves 
-                        as a hub for news, live streams, and resources, fostering 
-                        engagement and support among students.</p>
-                    <img class="project-img" src="/img/tamusa-esports.webp" alt="">
-                    </div>
-                    <a class="btn" href="https://www.tamusa.edu/esports/">View Website <svg xmlns="http://www.w3.org/2000/svg" 
-                        width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 
-                        2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 
-                        6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z"/></svg>
-                    </a>
-            </div>
-        </div>
-    </div>
-
-        <!-- ----------------------------- -->
-                <!-- TRAVEL -->
-        <!-- ----------------------------- -->
-        <div class="travel-container">
-            <h2>TRAVEL</h2>
-            <div class="travel">
-                <p>I cannot express the beautiful places I've been to! I could not believe my eyes what the world 
-                    looks like at different times of the year. Traveling is an experience I think a lot of people need.
+    <div class="blog">
+        <div class="blog-txt-body">
+            <h3>The Begninng</h3>
+            <div class="blog-body">
+                <p>It would be years before I decided and committed to learning martial arts. Growing up I’ve 
+                    always admired people who knew how to fight. I’ve watched countless action movies and UFC 
+                    fights with my dad but never took it upon myself to try it. I did try a karate class in 
+                    elementary school but that only lasted an hour after quitting and joining a softball team. 
+                    Fast forward to my junior year of high school, I started 
+                    watching the Netflix series Cobra Kai, a spin-off from the Karate Kid. I felt so moved 
+                    by the main character who started as a total beginner in karate.
+                </p><br>
+                <p>He had no clue what he was doing, but eventually, he got better and started competing. 
+                    I thought I was just like him. A couple of weeks later, my friend reached out to me and told me about her 
+                    experience at this gym that teaches jiu-jitsu. Listening to her talk about it motivated 
+                    me to try it so I asked my parents, and they enrolled me. At first, it was kind of a lag, 
+                    I felt so out of place and embarrassed about my skill level, but I wasn’t the only one. 
+                    There were plenty of younger and older students who started like me. After a year, I noticed 
+                    some improvements. I felt faster, stronger, and more coordinated.
                 </p>
-                <a class="btn" href="/gallery/travel-gallery.html">Gallery <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16">
-                <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
-                <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2M14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1M2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1z"/>
-                </svg></a>
+            </div><br>
+            <h3>The Middle</h3>
+            <div class="blog-body">
+                    <p>After a year of training, I had to take a break because of school. When I left, I had just 
+                        one stripe on my belt. I was about to graduate and needed to focus on college applications 
+                        and finding a job to help pay for school. It wasn’t long before I decided to start training 
+                        again. Two years had passed without any practice, and by then, everyone I started with had 
+                        moved up to the next belt.
+                    </p>
+                    <p>I was genuinely happy for them—they deserved it, and I could see how much they had improved. 
+                        But that’s when I realized I’d be playing a game of "Catch Up.” This is the challenge of not 
+                        continuing, and it only gets tougher the higher you go. Some people never return after reaching 
+                        the blue belt. This phenomenon is common because the blue belt represents a significant 
+                        milestone where students often hit an achievement plateau, face increased difficulty or experience 
+                        burnout. The realization of the vast skill gap ahead, combined with life responsibilities, 
+                        potential injuries, or a lack of motivation, can deter them from continuing. Additionally, the 
+                        fear of failure or self-doubt at this stage might make the journey ahead seem too daunting, 
+                        leading many to reassess their commitment and ultimately step away from BJJ. 
+                    </p>
             </div>
         </div>
+    </div>
 
     <!-- ----------------------------- -->
-            <!-- FOOTER -->
+    <!--            FOOTER             -->
     <!-- ----------------------------- -->
     <footer>
         <div class="footer">
@@ -150,7 +94,7 @@
     </footer>
 
     <!-- ----------------------------- -->
-            <!-- JAVASCRIPT -->
+    <!--          JAVASCRIPT           -->
     <!-- ----------------------------- -->
     <script>
         // NAVBAR ICON FUNCTION
