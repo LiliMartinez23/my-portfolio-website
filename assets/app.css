@@ -48,7 +48,7 @@ header {
 }
 
 /* ---------------------- */
-    /* INTRODUCTION */
+/*      INTRODUCTION      */
 /* ---------------------- */
 .text-body {
     margin-top: 2rem;
@@ -59,7 +59,7 @@ header {
 }
 
 /* ---------------- */
-    /* CARD */
+/*      CARDS       */
 /* ---------------- */
 .card-container {
     perspective: 1000px;
@@ -147,7 +147,7 @@ header {
 }
 
 /* -------------------------- */
-        /* CONTAINERS */
+/*          CONTAINERS        */
 /* -------------------------- */
 .container {
     width: 100%;
@@ -174,7 +174,7 @@ header {
 }
 
 /* -------------------------- */
-        /* BODY TEXT */
+/*          BODY TEXT         */
 /* -------------------------- */
 .text-container {
     border-radius: 1rem;
@@ -247,7 +247,7 @@ header {
 }
 
 /* -------------------------- */
-        /* BUTTONS */
+/*          BUTTONS           */
 /* -------------------------- */
 .btn {
     padding: 0.5rem 1rem;
@@ -285,14 +285,14 @@ header {
 }
 
 /* -------------------------- */
-            /* SVG */
+/*          SVG               */
 /* -------------------------- */
 svg {
     text-align: center;
 }
 
 /* -------------------------- */
-        /* ABOUT PAGE */
+/*          ABOUT PAGE        */
 /* -------------------------- */
 .about-container {
     background-color: #1e1e1eef;
@@ -347,7 +347,7 @@ svg {
 }
 
 /* -------------------------- */
-        /* NAVBAR */
+/*          NAVBAR            */
 /* -------------------------- */
 .menu {
     font-family: 'Inter', sans-serif;
@@ -363,8 +363,9 @@ svg {
 }
 
 .menu a {
+
     color: black;
-    padding: 12px 16px;
+    padding: 5px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -395,7 +396,7 @@ svg {
 }
 
 /* -------------------------- */
-        /* BLOG PAGE */
+/*          BLOG POSTS        */
 /* -------------------------- */
 .blog {
     width: 100%;
@@ -416,7 +417,7 @@ svg {
 }
 
 /* -------------------------- */
-        /* BLOG 1 */
+/*          BLOG              */
 /* -------------------------- */
 .blog-title {
     color: #f1f1f1;
@@ -482,7 +483,7 @@ svg {
 }
 
 /* -------------------------- */
-        /* FOOTER */
+/*          FOOTER            */
 /* -------------------------- */
 .footer {
     background-color: white;
@@ -519,7 +520,7 @@ svg {
 }
 
 /* -------------------------- */
-        /* GALLERY */
+/*          GALLERY           */
 /* -------------------------- */
 .gallery-container {
     margin: 1rem;
@@ -549,7 +550,7 @@ svg {
 }
 
 /* -------------------------- */
-        /* PROJECTS */
+/*          PROJECTS          */
 /* -------------------------- */
 .project-img {
     width: 45%;
@@ -563,7 +564,7 @@ svg {
 }
 
 /* -------------------------- */
-        /* TRAVEL */
+/*          TRAVEL            */
 /* -------------------------- */
 .travel-container {
     padding: 2rem;
@@ -588,7 +589,7 @@ svg {
 }
 
 /* -------------------------- */
-        /* MEDIA */
+/*         MEDIA QUERY        */
 /* -------------------------- */
 @media (max-width: 390px) {
     h1 {
